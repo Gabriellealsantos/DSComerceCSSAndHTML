@@ -15,7 +15,7 @@
 }
 
 .dsc-product-details-bottom {
-    padding: 10px 20px 20px 20px;
+    padding: 10px 20px;
 }
 
 .dsc-product-details-bottom h3 {
@@ -36,6 +36,7 @@
 
 .dsc-category {
     margin-right: 20px;
+    margin-bottom: 10px;
     padding: 0 20px;
     background-color: var(--dsc-color-bg-tertiary);
     border-radius: 4px;
@@ -46,8 +47,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .dsc-category-container {
     display: flex;
+    flex-wrap: wrap;
 }
